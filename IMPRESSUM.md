@@ -1,0 +1,23 @@
+# Impressum
+
+**Sascha Martin** (privat)
+E-Mail: Faceman33@web.de
+
+Die Weinberg-App ist ein privates, nicht-kommerzielles Projekt für Familie und Freunde – ohne Werbung, ohne Einnahmen und
+ohne Verkauf. Es handelt sich nicht um ein geschäftsmäßiges Angebot; die Angaben erfolgen freiwillig.
+
+## Verantwortlich für den Inhalt
+
+Sascha Martin, Kontakt wie oben.
+
+## Haftung für Inhalte
+
+Die mitgelieferte Aufgaben-Vorlage enthält allgemeine Hinweise zum Weinbau. Sie wurde sorgfältig erstellt, ersetzt aber keine
+fachliche Beratung; eine Gewähr für Vollständigkeit und Richtigkeit wird nicht übernommen. Pflanzenschutz- und Unkrautmittel nur
+nach geltendem Recht und Gebrauchsanleitung einsetzen.
+
+## Urheberrecht
+
+Eingesetzte Schriften und Bibliotheken stehen unter freien Lizenzen (Inter und Bricolage Grotesque: SIL Open Font License 1.1;
+Svelte, Capacitor, Capacitor Local Notifications, fflate: MIT-Lizenz). Die Lizenztexte liegen der App bei (Info → Lizenzen).
+App-Symbol, Gestaltung und Aufgaben-Vorlage: eigene Arbeit.
