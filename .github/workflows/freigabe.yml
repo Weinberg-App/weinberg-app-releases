@@ -48,6 +48,10 @@ jobs:
     timeout-minutes: 15
     permissions:
       contents: write
+    defaults:
+      run:
+        # bash mit -eo pipefail: ein Fehler mitten in einer Befehlskette bricht ab
+        shell: bash
     env:
       SRC_REPO: Weinberg-App/Weinberg-App
       BUILD: ${{ inputs.build }}
@@ -69,15 +73,17 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.LESE_TOKEN }}
         run: |
+          [ -n "$GH_TOKEN" ] || { echo "::error::Secret LESE_TOKEN fehlt oder ist für dieses Repo nicht freigegeben."; exit 1; }
+          gh api "repos/$SRC_REPO" --silent \
+            || { echo "::error::LESE_TOKEN wird abgelehnt (falsch kopiert, abgelaufen oder ohne Zugriff auf $SRC_REPO)."; exit 1; }
           RUN_ID=$(gh api "repos/$SRC_REPO/actions/workflows/build.yml/runs?branch=main&status=success&per_page=100" \
             --jq ".workflow_runs[] | select(.run_number == $BUILD) | .id" | head -1)
-          [ -n "$RUN_ID" ] || { echo "::error::Kein erfolgreicher main-Build Nr. $BUILD gefunden."; exit 1; }
+          [[ "$RUN_ID" =~ ^[0-9]+$ ]] || { echo "::error::Kein erfolgreicher main-Build Nr. $BUILD gefunden."; exit 1; }
           echo "run_id=$RUN_ID" >> "$GITHUB_OUTPUT"
 
       - name: Kandidat holen
         # Mit gh statt actions/download-artifact: derselbe Weg wie beim Suchen
-        # des Laufs (dort funktioniert der Lese-Token); download-artifact
-        # meldete mit dem fine-grained Token „Bad credentials“ (19.11.2026).
+        # des Laufs, eine fremde Action weniger.
         env:
           GH_TOKEN: ${{ secrets.LESE_TOKEN }}
           RUN_ID: ${{ steps.lauf.outputs.run_id }}
