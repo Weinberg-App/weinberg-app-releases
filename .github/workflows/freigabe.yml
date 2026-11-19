@@ -75,13 +75,17 @@ jobs:
           echo "run_id=$RUN_ID" >> "$GITHUB_OUTPUT"
 
       - name: Kandidat holen
-        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
-        with:
-          name: release-kandidat
-          path: kandidat
-          repository: Weinberg-App/Weinberg-App
-          run-id: ${{ steps.lauf.outputs.run_id }}
-          github-token: ${{ secrets.LESE_TOKEN }}
+        # Mit gh statt actions/download-artifact: derselbe Weg wie beim Suchen
+        # des Laufs (dort funktioniert der Lese-Token); download-artifact
+        # meldete mit dem fine-grained Token „Bad credentials“ (19.11.2026).
+        env:
+          GH_TOKEN: ${{ secrets.LESE_TOKEN }}
+          RUN_ID: ${{ steps.lauf.outputs.run_id }}
+        run: |
+          gh run download "$RUN_ID" -R "$SRC_REPO" -n release-kandidat -D kandidat
+          ls -la kandidat
+          [ -f kandidat/meta.json ] && [ -f kandidat/weinberg-unsigned.apk ] \
+            || { echo "::error::Kandidat unvollständig (meta.json oder APK fehlt)."; exit 1; }
 
       - name: Kandidat prüfen (Version, Build-Nr., Prüfsumme)
         run: |
