@@ -32,9 +32,13 @@ Android-Cloud-Sicherung ist für die App abgeschaltet.
 
 Mit „Alles sichern“ bzw. „Vorlage speichern“ legt die App eine ZIP-Datei in einem Ordner ab, den du selbst gewählt hast. Die App
 erhält dafür nur Zugriff auf **diesen einen Ordner**. Die Datei ist nicht verschlüsselt, damit du sie am PC ansehen kannst;
-„Alles sichern“ enthält deine Fotos und Notizen. Liegt der Ordner in einer Cloud-App oder teilst du eine Datei („Teilen …“), gelten
-dort die Bedingungen des Anbieters, den du selbst auswählst. Eine Vorlage enthält nur Aufgaben und Sorten – keine Fotos, Notizen,
-Häkchen und keinen Weinberg-Namen.
+„Alles sichern“ enthält deine Fotos und Notizen sowie den Zeilenplan (mit den Fotos von Zeilen und Stöcken). Liegt der Ordner in
+einer Cloud-App oder teilst du eine Datei („Teilen …“), gelten dort die Bedingungen des Anbieters, den du selbst auswählst. Eine
+Vorlage enthält nur Aufgaben und Sorten – keine Fotos, Notizen, Häkchen, keinen Zeilenplan und keinen Weinberg-Namen.
+
+Mit „Plan weitergeben“ im Reiter „Zeilen“ erstellt die App ein Bild des Lageplans (Zeilen, Sorten, Stocknummern, Datum), das du
+über Android teilen oder drucken kannst – z. B. für Erntehelfer. Es enthält keine Fotos, keine Notizen und keinen Ort; den Namen
+des Weinbergs nur, wenn du ihn einschaltest. Beim Drucken nutzt Android den von dir gewählten Druckdienst.
 
 ## 5. Berechtigungen
 
