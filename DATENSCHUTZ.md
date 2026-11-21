@@ -1,6 +1,6 @@
 # Datenschutzerklärung
 
-für die Android-App „Weinberg-App“ · Stand: 20. November 2026
+für die Android-App „Weinberg-App“ · Stand: 21. November 2026
 
 Dieselbe Erklärung steht in der App unter „?“ → Datenschutz.
 
@@ -24,6 +24,8 @@ An diese Adresse kannst du alle Fragen und Anfragen zum Datenschutz richten.
 - **Fotos:** werden beim Speichern verkleinert und neu gespeichert; dabei werden **Standort (GPS) und Kameradaten (EXIF) entfernt**.
 - **Titelbild und Profilfoto:** wenn du sie wählst, zusammen mit einem kurzen Text unter dem Namen. Sie erscheinen nur auf dem
   Startbildschirm der App.
+- **Material:** Art, Einheit und Bedarf je Material (gehören zur Vorlage) sowie euer Vorrat und wann ihr wie viel besorgt,
+  geliehen oder übrig hattet.
 - **Einstellungen:** Name des Weinbergs, Rebsorten, Darstellung, gewählte Ordner für Sicherungen, Zeitpunkt der letzten Sicherung,
   Einstellungen für Benachrichtigungen und Updates.
 
@@ -34,10 +36,13 @@ Android-Cloud-Sicherung ist für die App abgeschaltet.
 
 Mit „Alles sichern“ bzw. „Vorlage speichern“ legt die App eine ZIP-Datei in einem Ordner ab, den du selbst gewählt hast. Die App
 erhält dafür nur Zugriff auf **diesen einen Ordner**. Die Datei ist nicht verschlüsselt, damit du sie am PC ansehen kannst;
-„Alles sichern“ enthält deine Fotos und Notizen, Titelbild und Profilfoto sowie den Zeilenplan (mit den Fotos von Zeilen und Stöcken). Liegt der Ordner in
+„Alles sichern“ enthält deine Fotos und Notizen, Titelbild und Profilfoto sowie den Zeilenplan (mit den Fotos von Zeilen und Stöcken) und den Material-Vorrat. Liegt der Ordner in
 einer Cloud-App oder teilst du eine Datei („Teilen …“), gelten dort die Bedingungen des Anbieters, den du selbst auswählst. Eine
-Vorlage enthält nur Aufgaben und Sorten – keine Fotos, Notizen, Häkchen, kein Titelbild oder Profilfoto, keinen Zeilenplan und
-keinen Weinberg-Namen.
+Vorlage enthält nur Aufgaben (mit Material und Bedarf) und Sorten – keine Fotos, Notizen, Häkchen, kein Titelbild oder Profilfoto,
+keinen Zeilenplan, keinen Material-Vorrat und keinen Weinberg-Namen.
+
+Mit „Einkaufszettel teilen“ im Reiter „Material“ gibst du eine einfache Textliste (Material, fehlende Menge, Monat) über Android
+weiter, an wen du möchtest. Sie enthält keine Fotos, keine Notizen und keinen Ort.
 
 Mit „Plan weitergeben“ im Reiter „Zeilen“ erstellt die App ein Bild des Lageplans (Zeilen, Sorten, Stocknummern, Datum), das du
 über Android teilen oder drucken kannst – z. B. für Erntehelfer. Es enthält keine Fotos, keine Notizen und keinen Ort; den Namen
