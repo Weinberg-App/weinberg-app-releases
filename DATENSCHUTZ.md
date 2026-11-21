@@ -24,6 +24,8 @@ An diese Adresse kannst du alle Fragen und Anfragen zum Datenschutz richten.
 - **Fotos:** werden beim Speichern verkleinert und neu gespeichert; dabei werden **Standort (GPS) und Kameradaten (EXIF) entfernt**.
 - **Titelbild und Profilfoto:** wenn du sie wählst, zusammen mit einem kurzen Text unter dem Namen. Sie erscheinen nur auf dem
   Startbildschirm der App.
+- **Lese & Abgabe:** je Sorte und Weinjahr Menge, Oechsle (Ziel und Messung), Grundpreis, Zu-/Abschlag, Preis je kg und
+  Erlös.
 - **Material:** Art, Einheit und Bedarf je Material (gehören zur Vorlage) sowie euer Vorrat und wann ihr wie viel besorgt,
   geliehen oder übrig hattet.
 - **Einstellungen:** Name des Weinbergs, Rebsorten, Darstellung, gewählte Ordner für Sicherungen, Zeitpunkt der letzten Sicherung,
@@ -36,10 +38,10 @@ Android-Cloud-Sicherung ist für die App abgeschaltet.
 
 Mit „Alles sichern“ bzw. „Vorlage speichern“ legt die App eine ZIP-Datei in einem Ordner ab, den du selbst gewählt hast. Die App
 erhält dafür nur Zugriff auf **diesen einen Ordner**. Die Datei ist nicht verschlüsselt, damit du sie am PC ansehen kannst;
-„Alles sichern“ enthält deine Fotos und Notizen, Titelbild und Profilfoto sowie den Zeilenplan (mit den Fotos von Zeilen und Stöcken) und den Material-Vorrat. Liegt der Ordner in
+„Alles sichern“ enthält deine Fotos und Notizen, Titelbild und Profilfoto sowie den Zeilenplan (mit den Fotos von Zeilen und Stöcken), den Material-Vorrat und eure Lese-Werte mit Preisen und Erlös. Liegt der Ordner in
 einer Cloud-App oder teilst du eine Datei („Teilen …“), gelten dort die Bedingungen des Anbieters, den du selbst auswählst. Eine
 Vorlage enthält nur Aufgaben (mit Material und Bedarf) und Sorten – keine Fotos, Notizen, Häkchen, kein Titelbild oder Profilfoto,
-keinen Zeilenplan, keinen Material-Vorrat und keinen Weinberg-Namen.
+keinen Zeilenplan, keinen Material-Vorrat, keine Lese-Werte und Preise und keinen Weinberg-Namen.
 
 Mit „Einkaufszettel teilen“ im Reiter „Material“ gibst du eine einfache Textliste (Material, fehlende Menge, Monat) über Android
 weiter, an wen du möchtest. Sie enthält keine Fotos, keine Notizen und keinen Ort.
