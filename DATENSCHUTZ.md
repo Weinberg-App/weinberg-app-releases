@@ -32,7 +32,8 @@ An diese Adresse kannst du alle Fragen und Anfragen zum Datenschutz richten.
 - **Material:** Art, Einheit und Bedarf je Material (gehören zur Vorlage) sowie euer Vorrat und wann ihr wie viel besorgt,
   geliehen oder übrig hattet.
 - **Einstellungen:** Name des Weinbergs, Rebsorten, Darstellung, gewählte Ordner für Sicherungen, Zeitpunkt der letzten Sicherung,
-  Einstellungen für Benachrichtigungen und Updates.
+  Einstellungen für Benachrichtigungen und Updates sowie Version und Zeitpunkt eurer Zustimmung zu den Nutzungsbedingungen (geht
+  auch in „Alles sichern“ mit, nicht in eine Vorlage).
 
 Die Daten liegen im privaten Speicher der App, auf den andere Apps nicht zugreifen können. Die automatische
 Android-Cloud-Sicherung ist für die App abgeschaltet.
@@ -67,6 +68,8 @@ des Weinbergs nur, wenn du ihn einschaltest. Beim Drucken nutzt Android den von 
 - **Installation von Updates:** erlaubt der App, eine heruntergeladene neue Version an den Android-Installer zu übergeben.
 - **Internet:** nur für die Update-Prüfung.
 - Die App fragt **keinen Standort** ab.
+- **„Original prüfen“** (Info → Nutzung) liest nur die Signatur der installierten App auf deinem Gerät; dabei wird nichts
+  übertragen.
 
 ## 6. Empfänger und Internet
 
