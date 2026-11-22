@@ -14,7 +14,17 @@ alle Daten bleiben auf dem Handy.
 
 ## Rechtliches
 
+- [Nutzungsbedingungen](LIZENZ.md)
 - [Impressum](IMPRESSUM.md)
 - [Datenschutzerklärung](DATENSCHUTZ.md)
 
-Dieses Repo enthält nur fertige APKs, Änderungshinweise und den Freigabe-Workflow – keinen Quellcode und keine privaten Daten.
+Die Weinberg-App ist **keine Open-Source-Software**; ihr Quellcode wird nicht veröffentlicht. Dieses Repo enthält nur fertige
+APKs, Änderungshinweise, die rechtlichen Texte und den Freigabe-Workflow – keinen Quellcode und keine privaten Daten.
+
+## Original erkennen
+
+Bitte die App **nur von hier** laden. Echte Versionen sind mit diesem Schlüssel signiert (SHA-256-Fingerabdruck):
+
+`e5a9296b8bcec51dd3214f5cf1139fd8302e7aecf8fd04370e087d47f6250078`
+
+Ab Version 1.7.0 zeigt die App das selbst an: „?“ → „Nutzung“ → „Original prüfen“.
