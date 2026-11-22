@@ -1,6 +1,6 @@
 # Datenschutzerklärung
 
-für die Android-App „Weinberg-App“ · Stand: 21. November 2026
+für die Android-App „Weinberg-App“ · Stand: 22. November 2026
 
 Dieselbe Erklärung steht in der App unter „?“ → Datenschutz.
 
@@ -20,6 +20,9 @@ An diese Adresse kannst du alle Fragen und Anfragen zum Datenschutz richten.
 ## 3. Welche Daten auf deinem Gerät gespeichert werden
 
 - **Aufgaben und Vorlage:** Titel, Beschreibung, Material, Monat, erledigt am.
+- **Eure Notizen zu den Aufgaben:** freier Text mit Datum der letzten Änderung. Sie gehören nicht zur Vorlage und werden beim
+  Teilen einer Vorlage nicht weitergegeben. Die Anleitungen („So geht’s“) sind fest in der App enthalten; ein Link darin öffnet
+  die verlinkte Seite in deinem Browser.
 - **Einträge:** Notizen, Beobachtungen, Spritzungen (Mittel, Menge, Fläche), Oechsle-Werte, Lese-Mengen, jeweils mit Datum.
 - **Fotos:** werden beim Speichern verkleinert und neu gespeichert; dabei werden **Standort (GPS) und Kameradaten (EXIF) entfernt**.
 - **Titelbild und Profilfoto:** wenn du sie wählst, zusammen mit einem kurzen Text unter dem Namen. Sie erscheinen nur auf dem
@@ -38,10 +41,15 @@ Android-Cloud-Sicherung ist für die App abgeschaltet.
 
 Mit „Alles sichern“ bzw. „Vorlage speichern“ legt die App eine ZIP-Datei in einem Ordner ab, den du selbst gewählt hast. Die App
 erhält dafür nur Zugriff auf **diesen einen Ordner**. Die Datei ist nicht verschlüsselt, damit du sie am PC ansehen kannst;
-„Alles sichern“ enthält deine Fotos und Notizen, Titelbild und Profilfoto sowie den Zeilenplan (mit den Fotos von Zeilen und Stöcken), den Material-Vorrat und eure Lese-Werte mit Preisen und Erlös. Liegt der Ordner in
+„Alles sichern“ enthält deine Fotos und Notizen (auch eure Notizen zu den Aufgaben), Titelbild und Profilfoto sowie den Zeilenplan (mit den Fotos von Zeilen und Stöcken), den Material-Vorrat und eure Lese-Werte mit Preisen und Erlös. Liegt der Ordner in
 einer Cloud-App oder teilst du eine Datei („Teilen …“), gelten dort die Bedingungen des Anbieters, den du selbst auswählst. Eine
-Vorlage enthält nur Aufgaben (mit Material und Bedarf) und Sorten – keine Fotos, Notizen, Häkchen, kein Titelbild oder Profilfoto,
+Vorlage enthält nur Aufgaben (mit Material und Bedarf) und Sorten – keine Fotos, Notizen (auch nicht eure Notizen zu den Aufgaben), Häkchen, kein Titelbild oder Profilfoto,
 keinen Zeilenplan, keinen Material-Vorrat, keine Lese-Werte und Preise und keinen Weinberg-Namen.
+
+Die **automatische Sicherung** (Einstellungen → Sicherung, abschaltbar) legt dieselbe komplette ZIP-Datei mit Fotos selbsttätig im
+gewählten Ordner ab – nur bei geöffneter App, wenn sich etwas geändert hat, höchstens täglich bzw. wöchentlich. Die Dateien heißen
+„…_Auto-Sicherung_…“; die App behält nur die letzten (Standard 3) und löscht ältere automatische Sicherungen in diesem Ordner. Von
+Hand erstellte Sicherungen löscht sie nie. Es wird nichts übertragen.
 
 Mit „Einkaufszettel teilen“ im Reiter „Material“ gibst du eine einfache Textliste (Material, fehlende Menge, Monat) über Android
 weiter, an wen du möchtest. Sie enthält keine Fotos, keine Notizen und keinen Ort.
