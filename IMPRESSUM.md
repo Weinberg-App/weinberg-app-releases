@@ -12,13 +12,15 @@ Sascha Martin, Kontakt wie oben.
 
 ## Haftung für Inhalte
 
-Die mitgelieferte Aufgaben-Vorlage und die Anleitungen („So geht’s“) enthalten allgemeine Hinweise zum Weinbau. Sie wurden
-sorgfältig erstellt, ersetzen aber keine fachliche Beratung; eine Gewähr für Vollständigkeit und Richtigkeit wird nicht übernommen. Pflanzenschutz- und Unkrautmittel nur
-nach geltendem Recht und Gebrauchsanleitung einsetzen.
+Sämtliche Inhalte der App – Aufgaben-Vorlage, Anleitungen („So geht’s“), Skizzen, Berechnungen und Erinnerungen – sind
+unverbindliche Empfehlungen und Hinweise. Eine Gewähr für ihre Richtigkeit, Vollständigkeit und Eignung wird nicht übernommen;
+die Anwendung erfolgt in eigener Verantwortung. Einzelheiten, auch zum Haftungsausschluss und zu verlinkten Seiten:
+[Nutzungsbedingungen](LIZENZ.md), Abschnitte 8 und 9.
 
 ## Urheberrecht
 
+© 2026 Sascha Martin · Alle Rechte vorbehalten. Idee, Konzept, Gestaltung, Anleitungen und Skizzen: Sascha Martin.
+Programmiert mit KI-Unterstützung. Rechte und erlaubte Nutzung regeln die [Nutzungsbedingungen](LIZENZ.md).
+
 Eingesetzte Schriften und Bibliotheken stehen unter freien Lizenzen (Inter und Bricolage Grotesque: SIL Open Font License 1.1;
 Svelte, Capacitor, Capacitor Local Notifications, fflate: MIT-Lizenz). Die Lizenztexte liegen der App bei (Info → Lizenzen).
-App-Symbol, Gestaltung, Aufgaben-Vorlage sowie Texte und Skizzen der Anleitungen: eigene Arbeit. Für verlinkte fremde Seiten
-sind deren Betreiber verantwortlich.
