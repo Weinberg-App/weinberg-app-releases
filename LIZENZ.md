@@ -42,7 +42,7 @@ Nicht erlaubt ist,
 
 ## 5. Weitergehende und kommerzielle Nutzung
 
-Jede Nutzung, die über die Abschnitte 2 und 3 hinausgeht – insbesondere das Anbieten oder Verteilen der App durch Unternehmen, Vereine oder Genossenschaften –, bedarf der vorherigen Erlaubnis des Herausgebers in Textform (E-Mail genügt: Faceman33@web.de).
+Jede Nutzung, die über die Abschnitte 2 und 3 hinausgeht – insbesondere das Anbieten oder Verteilen der App durch Unternehmen, Vereine oder Genossenschaften –, bedarf der vorherigen Erlaubnis des Herausgebers in Textform (E-Mail genügt: info.sascha.martin@web.de).
 
 ## 6. Rechte
 
