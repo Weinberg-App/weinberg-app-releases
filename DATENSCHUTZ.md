@@ -1,12 +1,12 @@
 # Datenschutzerklärung
 
-für die Android-App „Weinberg-App“ · Stand: 22. November 2026
+für die Android-App „Weinberg-App“ · Stand: 23. November 2026
 
 Dieselbe Erklärung steht in der App unter „?“ → Datenschutz.
 
 ## 1. Verantwortlicher
 
-Sascha Martin (privat) · E-Mail: Faceman33@web.de
+Sascha Martin (privat) · E-Mail: info.sascha.martin@web.de
 An diese Adresse kannst du alle Fragen und Anfragen zum Datenschutz richten.
 
 ## 2. Das Wichtigste in Kürze
