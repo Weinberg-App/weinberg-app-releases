@@ -1,7 +1,7 @@
 # Impressum
 
 **Sascha Martin** (privat)
-E-Mail: Faceman33@web.de
+E-Mail: info.sascha.martin@web.de
 
 Die Weinberg-App ist ein privates, nicht-kommerzielles Projekt für Familie und Freunde – ohne Werbung, ohne Einnahmen und
 ohne Verkauf. Es handelt sich nicht um ein geschäftsmäßiges Angebot; die Angaben erfolgen freiwillig.
